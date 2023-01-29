@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;900&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='/css/main.css'/>
+  </head>
+  <body>
+    <section class="header">
+      <img src="/images/logo-white.svg" alt="My logo" width="70%">
+    </section>
+    <header class="team">
+      <nav class="menu">
+        <a href="/">HOME</a>
+        <a href="/team/ayman">Ayman</a>
+        <a href="/team/oualifi">Oualifi</a>
+
+     </nav>
+    </header>
+    <!-- the below tag will be use for injecting the component !-->
+    <!-- below the content in body is coming out from index.hbs !-->
+    {{{body}}}
+    <script src="/js/main.js"></script>
+  </body>
+</html>
