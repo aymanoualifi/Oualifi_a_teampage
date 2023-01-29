@@ -1,4 +1,5 @@
 # Oualifi_a_teampage
+<div>
 <img src="public/images/logo-black.svg" width="500px">
 </div>
 
